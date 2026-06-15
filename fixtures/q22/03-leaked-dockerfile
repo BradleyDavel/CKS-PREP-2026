@@ -1,0 +1,5 @@
+FROM alpine:3.20
+ENV API_TOKEN=plain-text-token
+RUN adduser -D app
+USER app
+CMD ["sleep", "1d"]

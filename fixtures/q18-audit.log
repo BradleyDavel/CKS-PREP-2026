@@ -1,0 +1,3 @@
+{"kind":"Event","user":{"username":"system:serviceaccount:security:p.auster"},"verb":"get","objectRef":{"resource":"secrets","namespace":"security","name":"secret-two"}}
+{"kind":"Event","user":{"username":"system:serviceaccount:security:viewer"},"verb":"get","objectRef":{"resource":"secrets","namespace":"security","name":"secret-three"}}
+{"kind":"Event","user":{"username":"system:serviceaccount:security:p.auster"},"verb":"get","objectRef":{"resource":"secrets","namespace":"security","name":"secret-five"}}

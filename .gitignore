@@ -1,0 +1,5 @@
+.idea/
+.vscode/
+*.log
+!fixtures/q18-audit.log
+.DS_Store
