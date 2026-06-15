@@ -37,6 +37,8 @@ source scripts/aliases.sh >/dev/null
 
 alias q1 >/dev/null
 alias q27 >/dev/null
+alias s1 >/dev/null
+alias s27 >/dev/null
 alias qlist >/dev/null
 alias qrandom >/dev/null
 

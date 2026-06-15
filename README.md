@@ -31,11 +31,13 @@ source scripts/aliases.sh
 qlist
 q1
 q2
+s1
 qrandom
 ```
 
-This loads `q1` through `q27` for the current terminal. To install the aliases
-for future Bash sessions:
+This loads `q1` through `q27` for questions and `s1` through `s27` for
+solutions in the current terminal. To install the aliases for future Bash
+sessions:
 
 ```bash
 bash scripts/install-aliases.sh
@@ -95,6 +97,8 @@ Examples:
 ```bash
 q1       # Run Question 1 setup and print the task
 q13      # Run Question 13
+s1       # Show the solution for Question 1
+s13      # Show the solution for Question 13
 qlist    # List all questions and environment levels
 qrandom  # Pick a random question
 ```
